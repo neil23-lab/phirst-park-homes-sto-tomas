@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHirst Park Homes Santo Tomas AVM</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-600">PHirst Park Homes Santo Tomas AVM</h1>
+      <!-- <ul class="hidden md:flex space-x-8 font-medium">
+        <li><a href="#home" class="hover:text-yellow-600">Home</a></li>
+        <li><a href="#units" class="hover:text-yellow-600">Units</a></li>
+        <li><a href="#amenities" class="hover:text-yellow-600">Amenities</a></li>
+        <li><a href="#about" class="hover:text-yellow-600">About Us</a></li>
+        <li><a href="#contact" class="hover:text-yellow-600">Contact</a></li>
+      </ul> -->
+      <ul class="hidden md:flex space-x-8 font-medium"> 
+        <li><a href="#home" class="hover:text-yellow-600 transition">Home</a></li> 
+        <li><a href="#units" class="hover:text-yellow-600 transition">Units</a></li> 
+        <!-- <li><a href="#virtual-tour" class="hover:text-yellow-600 transition">Virtual Tour</a></li>  -->
+        <li><a href="#amenities" class="hover:text-yellow-600 transition">Amenities</a></li> 
+        <li><a href="#about" class="hover:text-yellow-600 transition">About Us</a></li> 
+        <li><a href="#contact" class="hover:text-yellow-600 transition">Contact</a></li> </ul>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<!-- <section id="home" class="relative bg-gray-100"> -->
+    <!-- Background Image -->
+    <!-- <div class="absolute inset-0">
+      <img src="image/home/home.jpg" 
+           alt="PHirst Park Homes Sto. Tomas" 
+           class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    </div> -->
+
+    <!-- Hero Section with Carousel -->
+  <section id="home" class="relative bg-gray-100 h-[600px] md:h-[700px] overflow-hidden">
+
+  <!-- Carousel Wrapper -->
+  <div class="relative w-full h-full">
+    <!-- <div class="flex transition-transform duration-700" id="carousel">
+      <img src="image/home/home.jpg" class="w-full h-[600px] md:h-[700px] object-cover flex-shrink-0" alt="Home 1">
+      <img src="image/home/home6.jpg" class="w-full h-[600px] md:h-[700px] object-cover flex-shrink-0" alt="Home 2">
+      <img src="image/home/home2.jpg" class="w-full h-[600px] md:h-[700px] object-cover flex-shrink-0" alt="Home 3">
+      <img src="image/home/home3.jpg" class="w-full h-[600px] md:h-[700px] object-cover flex-shrink-0" alt="Home 2">
+      <img src="image/home/home4.jpg" class="w-full h-[600px] md:h-[700px] object-cover flex-shrink-0" alt="Home 3">
+      <img src="image/home/home5.jpg" class="w-full h-[600px] md:h-[700px] object-cover flex-shrink-0" alt="Home 2">
+      </div> -->
+
+      <video 
+        autoplay 
+        muted 
+        loop 
+        playsinline 
+        class="absolute top-0 left-0 w-full h-full object-cover"
+      >
+        <source src="image/home/avm2.mp4" type="video/mp4" >
+        Your browser does not support the video tag.
+      </video>
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+    <!-- Hero Content -->
+    <div class="absolute inset-0 flex items-center justify-start px-6 md:px-20">
+      <div class="max-w-2xl text-white">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          Welcome to <br> PHirst Park Homes Santo Tomas AVM
+        </h1>
+        <p class="text-lg md:text-xl mb-8">
+          Your first home, your first community — affordable, modern, and family-friendly living in Batangas.
+        </p>
+        <a href="#units" 
+           class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-lg shadow-md">
+          Explore Our Homes
+        </a>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <!-- <button onclick="prevSlide()" class="absolute left-2 top-1/2 -translate-y-1/2 bg-gray-700 bg-opacity-60 hover:bg-opacity-90 text-white p-3 rounded-full">❮</button>
+    <button onclick="nextSlide()" class="absolute right-2 top-1/2 -translate-y-1/2 bg-gray-700 bg-opacity-60 hover:bg-opacity-90 text-white p-3 rounded-full">❯</button> -->
+  </div>
+
+</section>
+  
+    <!-- Content -->
+    <div class="relative max-w-7xl mx-auto px-6 py-32 md:py-48 flex items-center">
+      <div class="max-w-2xl text-left text-white">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          Welcome to <br> PHirst Park Homes
+        </h1>
+        <p class="text-lg md:text-xl mb-8">
+          Your first home, your first community — affordable, modern, and family-friendly living in Batangas.
+        </p>
+        <a href="#units" 
+           class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-lg shadow-md">
+          Explore Our Homes
+        </a>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Calista Units Section -->
+ <section id="units" class="py-16 px-6 md:px-20 bg-gray-100"> <h2 class="text-3xl font-bold text-center mb-12"> Calista Units </h2> <div class="grid md:grid-cols-3 gap-8"> <!-- ===================================================== --> <!-- CALISTA MID --> <!-- ===================================================== --> <div class="bg-white rounded-xl shadow-md overflow-hidden"> <video autoplay muted loop playsinline class="w-full h-56 object-cover" > <source src="image/home/calista-mid.mp4" type="video/mp4"> Your browser does not support the video tag. </video> <div class="p-6"> <h3 class="text-xl font-semibold mb-2"> Calista Mid </h3> <p class="text-gray-600 mb-4"> A cozy and efficient townhouse unit perfect for starting families. </p> <p class="font-bold text-lg mb-4"> Starting at ₱2.6M </p> <div class="flex items-center justify-between"> <a href="#contact" class="text-yellow-600 font-semibold hover:underline" > Inquire Now → </a> <button onclick="openPhotos('photosDialog')" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded-lg shadow" > See Other Photos </button> </div> </div> </div> <!-- ===================================================== --> <!-- CALISTA END --> <!-- ===================================================== --> <div class="bg-white rounded-xl shadow-md overflow-hidden"> <video autoplay muted loop playsinline class="w-full h-56 object-cover" > <source src="image/home/calista-end.mp4" type="video/mp4"> Your browser does not support the video tag. </video> <div class="p-6"> <h3 class="text-xl font-semibold mb-2"> Calista End </h3> <p class="text-gray-600 mb-4"> An end-unit home offering more space and privacy for your family. </p> <p class="font-bold text-lg mb-4"> Starting at ₱3.4M </p> <div class="flex items-center justify-between"> <a href="#contact" class="text-yellow-600 font-semibold hover:underline" > Inquire Now → </a> <button onclick="openPhotos('calistaEndPhotosDialog')" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded-lg shadow" > See Other Photos </button> </div> </div> </div> <!-- ===================================================== --> <!-- CALISTA PAIR --> <!-- ===================================================== --> <div class="bg-white rounded-xl shadow-md overflow-hidden"> <video autoplay muted loop playsinline class="w-full h-56 object-cover" > <source src="image/home/calista-pair.mp4" type="video/mp4"> Your browser does not support the video tag. </video> <div class="p-6"> <h3 class="text-xl font-semibold mb-2"> Calista Pair </h3> <p class="text-gray-600 mb-4"> Two side-by-side units combined for bigger families and more comfort. </p> <p class="font-bold text-lg mb-4"> Starting at ₱5.8M </p> <div class="flex items-center justify-between"> <a href="#contact" class="text-yellow-600 font-semibold hover:underline" > Inquire Now → </a> <button onclick="openPhotos('calistaPairPhotosDialog')" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded-lg shadow" > See Other Photos </button> </div> </div> </div> </div> </section>
+
+  
+  <!-- Amenities Section -->
+<section id="amenities" class="py-16 px-6 md:px-20 bg-white">
+  <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Community Amenities</h2>
+  
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    
+    <!-- Amenity Card 1 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/clubhouse.jpg" alt="Clubhouse" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Modern Clubhouse</h3>
+      <p class="text-gray-600 text-sm">A welcoming space for residents to gather, host events, and create lasting memories together.</p>
+    </div>
+
+    <!-- Amenity Card 2 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/swimming.png" alt="Swimming Pool" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Swimming Pool</h3>
+      <p class="text-gray-600 text-sm">Dive into relaxation with our resort-style pool, perfect for cooling off or weekend fun.</p>
+    </div>
+
+    <!-- Amenity Card 3 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/court.png" alt="Basketball Court" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Basketball Court</h3>
+      <p class="text-gray-600 text-sm">Stay fit and have fun with friendly games at our spacious outdoor basketball court.</p>
+    </div>
+
+    <!-- Amenity Card 4 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/paw-park.jpg" alt="Paw Park" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Paw Park</h3>
+      <p class="text-gray-600 text-sm">A safe and open space where pets can run freely and play with other furry friends.</p>
+    </div>
+
+    <!-- Amenity Card 5 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/tree-house.jpg" alt="Tree House" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Tree House</h3>
+      <p class="text-gray-600 text-sm">An adventurous play spot that sparks imagination and fun for kids of all ages.</p>
+    </div>
+
+    <!-- Amenity Card 6 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/panorama.jpg" alt="Panorama Square" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Panorama Square</h3>
+      <p class="text-gray-600 text-sm">A central gathering plaza where residents can relax, unwind, and enjoy open-air views.</p>
+    </div>
+
+    <!-- Amenity Card 7 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/hop-pod.jpg" alt="Hop Pod" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Hop Pod</h3>
+      <p class="text-gray-600 text-sm">A creative play area designed for active fun, laughter, and endless hopping adventures.</p>
+    </div>
+
+    <!-- Amenity Card 8 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/spider.jpg" alt="Spider" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Spider Web</h3>
+      <p class="text-gray-600 text-sm">A fun climbing structure where kids can challenge themselves safely and build confidence.</p>
+    </div>
+
+    <!-- Amenity Card 9 -->
+    <div class="bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition p-6 text-center">
+      <img src="image/amenities/wifi-node.jpg" alt="Wifi Node" class="w-full h-48 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Wi-Fi Node</h3>
+      <p class="text-gray-600 text-sm">Stay connected throughout the community with reliable high-speed Wi-Fi access zones.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 md:px-20">
+  <div class="grid grid-cols-1 gap-10 items-center">
+
+    <div class="relative w-full h-[400px] md:h-[600px] rounded-xl overflow-hidden">
+
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute top-0 left-0 w-full h-full object-cover"
+      >
+        <source src="image/home/noel.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+      <!-- HERO TEXT -->
+      <div class="absolute inset-0 flex items-center px-6 text-center">
+        <div class="text-white">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6 ">
+            Why Choose PHirst Park Homes?
+          </h1>
+           <p class="text-xl md:text-2xl leading-relaxed mb-6" >
+            Currently, PHirst Park Home Sto Tomas is located in San Pablong Nayon, Sto. Tomas City, Batangas.
+            Carrying its brand pillars—Complete Homes, Conceptive Amenities, Connected Essentials,
+            and Convenient Selling & Buying Experience—PHirst builds communities where families
+            can dwell, create, and thrive.
+          </p>
+          <br>
+          <a href="#contact"
+             class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-lg">
+            Schedule a Visit
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-100 py-16 px-6 md:px-20">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
+      <!-- <h2 class="text-3xl font-bold mb-6 text-center">Contact Us</h2>
+      <a href="https://www.facebook.com/PhirstAbby"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="messenger-btn">
+            💬 PHirst Park Homes Santo Tomas AVM
+        </a>
+        <br>
+        <a href="https://www.messenger.com/t/PhirstAbby"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="messenger-btn">
+            💬 PHirst Park Homes Santo Tomas AVM - Messenger
+        </a> -->
+        <div class="text-center">
+                <h1 class="text-2xl md:text-2xl font-bold mb-6 leading-tight">
+         Contact Us
+        </h1>
+    
+            <p>
+              <b>Have questions about our homes? <br>Send us a message
+                and we'll be happy to assist you.</b>
+                
+            </p>
+            <br>
+
+            <a href="https://www.messenger.com/t/PhirstAbby"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="messenger-button">
+                💬 Chat with us on Messenger
+            </a>
+        </div>
+      <!-- <form action="https://formspree.io/f/your_form_id" method="POST" class="space-y-6">
+      <input type="text" name="name" placeholder="Your Name" required
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-yellow-500">
+      <input type="email" name="email" placeholder="Your Email" required
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-yellow-500">
+      <input type="text" name="phone" placeholder="Your Phone Number"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-yellow-500">
+      <textarea name="message" placeholder="Your Message" rows="5" required
+                class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-yellow-500"></textarea>
+
+      <button type="submit" 
+              class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 rounded-lg">
+        Send Inquiry
+      </button>
+    </form> -->
+
+<div id="photosDialog" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50 p-4" > <div class="bg-white rounded-2xl shadow-lg w-full max-w-[1000px] h-[600px] p-6 relative flex flex-col overflow-hidden" > <!-- CLOSE --> <button onclick="closePhotos('photosDialog')" class="absolute top-3 right-3 z-20 text-gray-500 hover:text-gray-800 text-3xl font-bold" > &times; </button> <h2 class="text-2xl font-semibold mb-4"> Calista Mid Photos </h2> <!-- CAROUSEL --> <div class="relative w-full flex-1 overflow-hidden"> <div id="calistaMidCarousel" class="flex h-full transition-transform duration-700 ease-in-out" > <img src="image/calista-mid/calista-mid.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Mid" /> <img src="image/calista-mid/living.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Mid Living Room" /> <img src="image/calista-mid/kitchen.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Mid Kitchen" /> <img src="image/calista-mid/bedroom.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Mid Bedroom" /> </div> <!-- PREVIOUS --> <button id="calistaMidPrev" onclick="changeSlide('calistaMid', -1)" class="absolute top-1/2 left-3 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-80 text-white p-3 rounded-full text-2xl z-10" > &#10094; </button> <!-- NEXT --> <button id="calistaMidNext" onclick="changeSlide('calistaMid', 1)" class="absolute top-1/2 right-3 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-80 text-white p-3 rounded-full text-2xl z-10" > &#10095; </button> </div> </div> </div> <!-- ========================================================= --> <!-- CALISTA END PHOTO DIALOG --> <!-- ========================================================= --> <div id="calistaEndPhotosDialog" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50 p-4" > <div class="bg-white rounded-2xl shadow-lg w-full max-w-[1000px] h-[600px] p-6 relative flex flex-col overflow-hidden" > <!-- CLOSE --> <button onclick="closePhotos('calistaEndPhotosDialog')" class="absolute top-3 right-3 z-20 text-gray-500 hover:text-gray-800 text-3xl font-bold" > &times; </button> <h2 class="text-2xl font-semibold mb-4"> Calista End Photos </h2> <!-- CAROUSEL --> <div class="relative w-full flex-1 overflow-hidden"> <div id="calistaEndCarousel" class="flex h-full transition-transform duration-700 ease-in-out" > <img src="image/calista-end/end1.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista End 1" /> <img src="image/calista-end/end2.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista End 2" /> <img src="image/calista-end/end3.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista End 3" /> <img src="image/calista-end/end4.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista End 4" /> <img src="image/calista-end/end5.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista End 5" /> <img src="image/calista-end/end6.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista End 6" /> </div> <!-- PREVIOUS --> <button id="calistaEndPrev" onclick="changeSlide('calistaEnd', -1)" class="absolute top-1/2 left-3 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-80 text-white p-3 rounded-full text-2xl z-10" > &#10094; </button> <!-- NEXT --> <button id="calistaEndNext" onclick="changeSlide('calistaEnd', 1)" class="absolute top-1/2 right-3 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-80 text-white p-3 rounded-full text-2xl z-10" > &#10095; </button> </div> </div> </div> <!-- ========================================================= --> <!-- CALISTA PAIR PHOTO DIALOG --> <!-- ========================================================= --> <div id="calistaPairPhotosDialog" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50 p-4" > <div class="bg-white rounded-2xl shadow-lg w-full max-w-[1000px] h-[600px] p-6 relative flex flex-col overflow-hidden" > <!-- CLOSE --> <button onclick="closePhotos('calistaPairPhotosDialog')" class="absolute top-3 right-3 z-20 text-gray-500 hover:text-gray-800 text-3xl font-bold" > &times; </button> <h2 class="text-2xl font-semibold mb-4"> Calista Pair Photos </h2> <!-- CAROUSEL --> <div class="relative w-full flex-1 overflow-hidden"> <div id="calistaPairCarousel" class="flex h-full transition-transform duration-700 ease-in-out" > <img src="image/calista-pair/calistapair.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Pair" /> <img src="image/calista-pair/dining.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Pair Dining" /> <img src="image/calista-pair/kitchen.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Pair Kitchen" /> <img src="image/calista-pair/living.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Pair Living Room" /> <img src="image/calista-pair/bedroom.jpg" class="w-full h-full object-cover flex-shrink-0" alt="Calista Pair Bedroom" /> </div> <!-- PREVIOUS --> <button id="calistaPairPrev" onclick="changeSlide('calistaPair', -1)" class="absolute top-1/2 left-3 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-80 text-white p-3 rounded-full text-2xl z-10" > &#10094; </button> <!-- NEXT --> <button id="calistaPairNext" onclick="changeSlide('calistaPair', 1)" class="absolute top-1/2 right-3 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-80 text-white p-3 rounded-full text-2xl z-10" > &#10095; </button> </div> </div> </div>
+
+     
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>© 2026 PHirst Park Homes Sto. Tomas. All Rights Reserved.</p>
+  </footer>
+
+  <script> 
+  let viewer360 = null; let current360Unit = "calistaMid"; let current360Room = 0; /* ========================================================= TOUR DATA ========================================================= */ const tour360Data = { calistaMid: { title: "Calista Mid", rooms: [ { name: "Exterior", image: "image/360/calista-mid/exterior-360.jpg" }, { name: "Living Room", image: "image/360/calista-mid/living-360.jpg" }, { name: "Kitchen", image: "image/360/calista-mid/kitchen-360.jpg" }, { name: "Bedroom", image: "image/360/calista-mid/bedroom-360.jpg" } ] }, calistaEnd: { title: "Calista End", rooms: [ { name: "Exterior", image: "image/360/calista-end/exterior-360.jpg" }, { name: "Living Room", image: "image/360/calista-end/living-360.jpg" }, { name: "Kitchen", image: "image/360/calista-end/kitchen-360.jpg" }, { name: "Bedroom", image: "image/360/calista-end/bedroom-360.jpg" }, { name: "Second Room", image: "image/360/calista-end/room2-360.jpg" }, { name: "Hallway", image: "image/360/calista-end/hallway-360.jpg" } ] }, calistaPair: { title: "Calista Pair", rooms: [ { name: "Exterior", image: "image/360/calista-pair/exterior-360.jpg" }, { name: "Living Room", image: "image/360/calista-pair/living-360.jpg" }, { name: "Dining Area", image: "image/360/calista-pair/dining-360.jpg" }, { name: "Kitchen", image: "image/360/calista-pair/kitchen-360.jpg" }, { name: "Bedroom", image: "image/360/calista-pair/bedroom-360.jpg" } ] } }; /* ========================================================= INITIALIZE 360 VIEWER ========================================================= */ function initialize360Viewer() { const room = tour360Data[current360Unit] .rooms[current360Room]; if (viewer360) { viewer360.destroy(); viewer360 = null; } viewer360 = pannellum.viewer("panorama", { type: "equirectangular", panorama: room.image, autoLoad: true, compass: false, showControls: false, showFullscreenCtrl: false, mouseZoom: true, draggable: true, keyboardZoom: true, touchPanSpeedCoeffFactor: 1, friction: 0.15, pitch: 0, yaw: 0, hfov: 100, minHfov: 50, maxHfov: 120 }); } /* ========================================================= OPEN UNIT TOUR ========================================================= */ function open360Tour(unit) { if (!tour360Data[unit]) { return; } current360Unit = unit; current360Room = 0; update360Interface(); } /* ========================================================= UPDATE TOUR ========================================================= */ function update360Interface() { const unit = tour360Data[current360Unit]; const room = unit.rooms[current360Room]; /* UNIT TITLE */ document.getElementById( "tour360Title" ).textContent = unit.title; /* ROOM NAME */ document.getElementById( "tour360RoomName" ).textContent = room.name; document.getElementById( "tour360RoomLabel" ).textContent = room.name; /* COUNTER */ document.getElementById( "tour360RoomCounter" ).textContent = "Room " + (current360Room + 1) + " of " + unit.rooms.length; /* BUTTON STYLE */ document .querySelectorAll(".tour-unit-button") .forEach(button => { button.classList.remove( "bg-yellow-500", "text-black" ); button.classList.add( "bg-white", "text-gray-900" ); }); const activeButton = document.getElementById( "tourBtn" + capitalizeFirstLetter(current360Unit) ); if (activeButton) { activeButton.classList.remove( "bg-white", "text-gray-900" ); activeButton.classList.add( "bg-yellow-500", "text-black" ); } /* CREATE VIEWER */ initialize360Viewer(); /* ROOM THUMBNAILS */ render360RoomButtons(); } /* ========================================================= CAPITALIZE ========================================================= */ function capitalizeFirstLetter(string) { return string.charAt(0).toUpperCase() + string.slice(1); } /* ========================================================= NEXT ROOM ========================================================= */ function next360Room() { const unit = tour360Data[current360Unit]; current360Room = (current360Room + 1) % unit.rooms.length; update360Interface(); } /* ========================================================= PREVIOUS ROOM ========================================================= */ function previous360Room() { const unit = tour360Data[current360Unit]; current360Room = ( current360Room - 1 + unit.rooms.length ) % unit.rooms.length; update360Interface(); } /* ========================================================= ROTATE LEFT ========================================================= */ function rotate360Left() { if (!viewer360) { return; } const currentYaw = viewer360.getYaw(); viewer360.setYaw( currentYaw - 20, 300 ); } /* ========================================================= ROTATE RIGHT ========================================================= */ function rotate360Right() { if (!viewer360) { return; } const currentYaw = viewer360.getYaw(); viewer360.setYaw( currentYaw + 20, 300 ); } /* ========================================================= RESET VIEW ========================================================= */ function reset360View() { if (!viewer360) { return; } viewer360.lookAt( 0, 0, 100, 500 ); } /* ========================================================= FULLSCREEN ========================================================= */ function toggle360Fullscreen() { if (!viewer360) { return; } viewer360.toggleFullscreen(); } /* ========================================================= ROOM BUTTONS ========================================================= */ function render360RoomButtons() { const container = document.getElementById( "tour360Rooms" ); const unit = tour360Data[current360Unit]; container.innerHTML = ""; unit.rooms.forEach( (room, index) => { const button = document.createElement("button"); button.type = "button"; button.className = "relative h-24 rounded-xl " + "overflow-hidden border-4 " + "transition-all duration-200 " + ( index === current360Room ? "border-yellow-500 scale-[1.02]" : "border-transparent hover:border-yellow-400" ); button.innerHTML = ` <img src="${room.image}" alt="${room.name}" class="w-full h-full object-cover" > <div class="absolute inset-x-0 bottom-0 bg-black/70 text-white text-xs font-bold px-2 py-2 text-left" > ${room.name} </div> `; button.addEventListener( "click", function() { current360Room = index; update360Interface(); } ); container.appendChild(button); } ); } /* ========================================================= INITIALIZE ========================================================= */ document.addEventListener( "DOMContentLoaded", function() { update360Interface(); } );
+
+
+
+
+
+  // const virtualTours = { calistaMid: { title: "Calista Mid", rooms: [ { name: "Exterior", image: "image/calista-mid/calista-mid.jpg" }, { name: "Living Room", image: "image/calista-mid/living.jpg" }, { name: "Kitchen", image: "image/calista-mid/kitchen.jpg" }, { name: "Bedroom", image: "image/calista-mid/bedroom.jpg" } ] }, calistaEnd: { title: "Calista End", rooms: [ { name: "Exterior", image: "image/calista-end/end1.jpg" }, { name: "Living Area", image: "image/calista-end/end2.jpg" }, { name: "Kitchen", image: "image/calista-end/end3.jpg" }, { name: "Bedroom", image: "image/calista-end/end4.jpg" }, { name: "Interior", image: "image/calista-end/end5.jpg" }, { name: "Additional View", image: "image/calista-end/end6.jpg" } ] }, calistaPair: { title: "Calista Pair", rooms: [ { name: "Exterior", image: "image/calista-pair/calistapair.jpg" }, { name: "Dining Area", image: "image/calista-pair/dining.jpg" }, { name: "Kitchen", image: "image/calista-pair/kitchen.jpg" }, { name: "Living Room", image: "image/calista-pair/living.jpg" }, { name: "Bedroom", image: "image/calista-pair/bedroom.jpg" } ] } }; let currentTour = "calistaMid"; let currentTourRoom = 0; /* ========================================================= START TOUR ========================================================= */ function startVirtualTour(unit) { if (!virtualTours[unit]) { return; } currentTour = unit; currentTourRoom = 0; updateVirtualTour(); document .getElementById("virtual-tour") .scrollIntoView({ behavior: "smooth" }); } /* ========================================================= UPDATE TOUR ========================================================= */ function updateVirtualTour() { const tour = virtualTours[currentTour]; if (!tour) { return; } const room = tour.rooms[currentTourRoom]; if (!room) { return; } /* Unit title */ document.getElementById("tourUnitTitle").textContent = tour.title; /* Main image */ const mainImage = document.getElementById("tourMainImage"); mainImage.style.opacity = "0"; setTimeout(() => { mainImage.src = room.image; mainImage.alt = tour.title + " - " + room.name; mainImage.style.opacity = "1"; }, 150); /* Room number */ document.getElementById("tourRoomNumber").textContent = "ROOM " + (currentTourRoom + 1); /* Room name */ document.getElementById("tourRoomName").textContent = room.name; /* Progress */ document.getElementById("tourProgress").textContent = "Room " + (currentTourRoom + 1) + " of " + tour.rooms.length; /* Create thumbnails */ renderTourThumbnails(); } /* ========================================================= THUMBNAILS ========================================================= */ function renderTourThumbnails() { const container = document.getElementById("tourThumbnails"); const tour = virtualTours[currentTour]; container.innerHTML = ""; tour.rooms.forEach((room, index) => { const button = document.createElement("button"); button.type = "button"; button.className = "relative rounded-xl overflow-hidden h-24 md:h-28 " + "border-4 transition-all duration-200 " + ( index === currentTourRoom ? "border-yellow-500 scale-[1.02]" : "border-transparent hover:border-yellow-400" ); button.innerHTML = ` <img src="${room.image}" alt="${room.name}" class="w-full h-full object-cover" > <div class="absolute inset-x-0 bottom-0 bg-black/70 text-white text-xs font-semibold px-2 py-1 text-left" > ${room.name} </div> `; button.addEventListener("click", () => { currentTourRoom = index; updateVirtualTour(); }); container.appendChild(button); }); } /* ========================================================= NEXT ROOM ========================================================= */ function nextTourRoom() { const tour = virtualTours[currentTour]; currentTourRoom = (currentTourRoom + 1) % tour.rooms.length; updateVirtualTour(); } /* ========================================================= PREVIOUS ROOM ========================================================= */ function previousTourRoom() { const tour = virtualTours[currentTour]; currentTourRoom = ( currentTourRoom - 1 + tour.rooms.length ) % tour.rooms.length; updateVirtualTour(); } /* ========================================================= FULLSCREEN ========================================================= */ function openTourFullscreen() { const virtualwer = document.getElementById("tourViewer"); if (!document.fullscreenElement) { if (viewer.requestFullscreen) { viewer.requestFullscreen(); } } else { document.exitFullscreen(); } } /* ========================================================= KEYBOARD CONTROLS ========================================================= */ document.addEventListener("keydown", function(event) { const virtualTourSection = document.getElementById("virtual-tour"); if (!virtualTourSection) { return; } const rect = virtualTourSection.getBoundingClientRect(); const isTourVisible = rect.top < window.innerHeight && rect.bottom > 0; if (!isTourVisible) { return; } if (event.key === "ArrowRight") { nextTourRoom(); } if (event.key === "ArrowLeft") { previousTourRoom(); } }); /* ========================================================= INITIALIZE ========================================================= */ document.addEventListener("DOMContentLoaded", function() { updateVirtualTour(); });
+  
+  
+  /* 
+  * Each carousel has its own index. Explore Your Future Home
+  * This prevents Calista Mid, End and Pair 
+  * * from interfering with each other. 
+  * */ 
+    const carouselState = 
+    { 
+    calistaMid: { index: 0, carouselId: "calistaMidCarousel" }, 
+    calistaEnd: { index: 0, carouselId: "calistaEndCarousel" }, 
+    calistaPair: { index: 0, carouselId: "calistaPairCarousel" } }; 
+    
+    /* ========================================================= OPEN PHOTO DIALOG ========================================================= */ 
+    
+    function openPhotos(dialogId) { 
+      
+      const dialog = document.getElementById(dialogId); if (dialog) 
+      { dialog.classList.remove("hidden"); /* * Prevent the background page from scrolling */ 
+      document.body.classList.add("overflow-hidden"); } } 
+      
+      /* ========================================================= CLOSE PHOTO DIALOG ========================================================= */ 
+      
+      function closePhotos(dialogId) { 
+        
+        const dialog = document.getElementById(dialogId); if (dialog) { dialog.classList.add("hidden"); 
+        
+        /* * Allow page scrolling again */ 
+        
+        document.body.classList.remove("overflow-hidden"); } } 
+        
+        /* ========================================================= CHANGE SLIDE ========================================================= */ 
+        function changeSlide(carouselName, direction) 
+        { 
+        const state = carouselState[carouselName]; if (!state) { return; } 
+        const carousel = document.getElementById( state.carouselId ); if (!carousel) { return; } 
+        const slides = carousel.children.length; /* * Calculate new slide */ state.index = (state.index + direction + slides) % slides; 
+        
+        /* * Move carousel */ carousel.style.transform = `translateX(-${state.index * 100}%)`; } 
+        /* ========================================================= RESET CAROUSEL WHEN OPENING ========================================================= */ 
+        
+        function resetCarousel(carouselName) { 
+          const state = carouselState[carouselName]; if (!state) { return; } 
+          const carousel = document.getElementById( state.carouselId ); if (!carousel) { return; } state.index = 0; carousel.style.transform = "translateX(0%)"; } 
+          
+          /* ========================================================= CLICK OUTSIDE DIALOG TO CLOSE ========================================================= */ document.addEventListener("click", function(event) { const dialogs = [ "photosDialog", "calistaEndPhotosDialog", "calistaPairPhotosDialog" ]; dialogs.forEach(function(dialogId) { const dialog = document.getElementById(dialogId); if ( dialog && !dialog.classList.contains("hidden") && event.target === dialog ) { closePhotos(dialogId); } }); }); /* ========================================================= ESC KEY CLOSES DIALOG ========================================================= */ document.addEventListener("keydown", function(event) { if (event.key !== "Escape") { return; } const dialogs = [ "photosDialog", "calistaEndPhotosDialog", "calistaPairPhotosDialog" ]; dialogs.forEach(function(dialogId) { const dialog = document.getElementById(dialogId); if ( dialog && !dialog.classList.contains("hidden") ) { closePhotos(dialogId); } }); }); </script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Pannellum 360° Viewer -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css"
+/>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"
+></script>
+
+
+  <!-- <script>
+  const carousel = document.getElementById("carousel");
+  const slides = carousel.children.length;
+  let index = 0;
+
+  function nextSlide() {
+    index = (index + 1) % slides; // loop back to start
+    carousel.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  function prevSlide() {
+    index = (index - 1 + slides) % slides; // loop back to last
+    carousel.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  document.getElementById("nextBtn").addEventListener("click", nextSlide);
+  document.getElementById("prevBtn").addEventListener("click", prevSlide);
+
+  // ✅ Auto slide every 5 seconds
+  setInterval(nextSlide, 5000);
+</script> -->
+
+<!-- <script> 
+  function setupCarousel(carouselId, prevBtnId, nextBtnId) {
+    const carousel = document.getElementById(carouselId);
+    const prevBtn = document.getElementById(prevBtnId);
+    const nextBtn = document.getElementById(nextBtnId);
+
+    if (!carousel || !prevBtn || !nextBtn) return;
+
+    const slides = carousel.children.length;
+    let index = 0;
+
+    function updateCarousel() {
+      carousel.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function nextSlide() {
+      index = (index + 1) % slides;
+      updateCarousel();
+    }
+
+    function prevSlide() {
+      index = (index - 1 + slides) % slides;
+      updateCarousel();
+    }
+
+    nextBtn.addEventListener("click", nextSlide);
+    prevBtn.addEventListener("click", prevSlide);
+
+    // Auto slide every 5 seconds
+    setInterval(nextSlide, 5000);
+  }
+
+  // Calista Mid
+  setupCarousel(
+    "calistaMidCarousel",
+    "calistaMidPrevBtn",
+    "calistaMidNextBtn"
+  );
+
+  // Calista End
+  setupCarousel(
+    "calistaEndCarousel",
+    "calistaEndPrevBtn",
+    "calistaEndNextBtn"
+  );
+
+  // Calista Pair
+  setupCarousel(
+    "calistaPairCarousel",
+    "calistaPairPrevBtn",
+    "calistaPairNextBtn"
+  );
+</script> -->
+
+</body>
+
+<style>
+.messenger-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 25px;
+    background: #1877f2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(24, 119, 242, 0.3);
+    transition: all 0.3s ease;
+    align-items: center;
+}
+
+.messenger-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(24, 119, 242, 0.4);
+}
+</style>
+</html>
+
+
